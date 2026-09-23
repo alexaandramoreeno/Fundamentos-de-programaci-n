@@ -1,6 +1,6 @@
-dinero = int(input("cantidad de dinero "))
-interes = int(input("interes anual "))
-anios = int(input("cantidad de años "))
+dinero = float(input("cantidad de dinero "))
+interes = float(input("interes anual "))
+anios = float(input("cantidad de años "))
 
 capital = dinero * (1+ interes /100 ) ** anios 
 
