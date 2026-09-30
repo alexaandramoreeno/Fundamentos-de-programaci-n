@@ -5,5 +5,5 @@ vendidas = int(input("Barras vendidas que no son del dia: "))
 
 print(f"precio habitual de una barra de pan: {panbueno}")
 print(f"descuento: {round(panbueno*0.6,2)}")
-print(f"coste final: {round(panmalo,2)} " )
+print(f"coste final: {round(panmalo,2)*vendidas*0.4} " )
 
