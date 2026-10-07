@@ -4,4 +4,4 @@ unidades =int(input("dime el unidades del producto: "))
 
 coste_total = precio * unidades
 
-print(f"nombre , {precio:9.2f} , {unidades:3d} , {coste_total:8.2f}")
+print(f"nombre , {precio:9.2f} , {unidades:3d} , {coste_total:11.2f}")
