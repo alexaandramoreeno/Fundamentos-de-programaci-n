@@ -10,3 +10,11 @@ for i in range(1, num + 1, 2):
         print(numero, end=" ")
         
     print() # Hacemos un salto de línea 
+
+
+# sol de clase sin vector 
+# for i in range (1,num+1,2):
+#   for j in range (i,0,-2):
+#       print(j,end="")
+#   print()    esto es el salto de linea
+#
